@@ -14,10 +14,23 @@
     </header>
 
     <main>
-        <label for="num">
-            <span>Inserisci un numero: </span>
-            <input type="number" id="num" name="num" step="2" min="0" max="100">
-        </label>
+        <section>
+            <label for="num">
+                <span>Inserisci un numero: </span>
+                <input type="number" id="num" name="num" step="2" min="0" max="100" autofocus>
+            </label><br>
+            <label for="check">
+                <span>Il numero che hai scelto è il tuo preferito?</span>
+                <input type="checkbox" name="check" checked>
+            </label><br>
+            <label for="day">
+                <span>Che giorno è oggi?</span>
+                <input type="date" name="day">
+            </label>
+        </section>
+        <section>
+            <button type="button" disabled>Click me if you can</button>
+        </section>
     </main>
 
 </body>
